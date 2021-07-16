@@ -190,7 +190,7 @@ div:not(#no) {
 .primary-btn-slider {
 	display: inline-block;
 	font-size: 15px;
-	padding: 7px 10px;
+	padding: 5px 5px;
 	color: #ffffff;
 	border: 2px solid red;
 	text-transform: uppercase;
@@ -3044,7 +3044,10 @@ div:not(#no) {
 		line-height: normal;
 	}
 	.carousel-caption {
-  	top: 12%;
+  	top: 28%;
 	}
 
+	.bannercdet { /* Para que el banner de CDET quede centrado verticalmente en celulares */
+		margin-top: 38px;
+	}
 }
