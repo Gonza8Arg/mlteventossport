@@ -187,6 +187,17 @@ div:not(#no) {
 	font-family: "Quantico", sans-serif;
 }
 
+.primary-btn-slider {
+	display: inline-block;
+	font-size: 15px;
+	padding: 7px 10px;
+	color: #ffffff;
+	border: 2px solid red;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: "Quantico", sans-serif;
+}
+
 .site-btn {
 	font-size: 15px;
 	color: #ffffff;
