@@ -122,6 +122,10 @@ div:not(#no) {
 
 }
 
+.carousel-caption {
+  top: 42%;
+}
+
 /*---------------------
   Helper CSS
 -----------------------*/
@@ -2614,6 +2618,10 @@ div:not(#no) {
 	.gacetilla-btn {
 		margin-top: 13px;
 	}
+
+	.carousel-caption {
+  	top: 37%;
+	}
 }
 
 /* Tablet Device = 768px */
@@ -2718,6 +2726,11 @@ div:not(#no) {
 	.portfolio-details-pic .pdp-item.large-width {
 		width: calc(33.33% - 20px);
 	}
+
+	.carousel-caption {
+  	top: 30%;
+	}
+
 }
 
 /* Wide Mobile = 480px */
@@ -2877,6 +2890,10 @@ div:not(#no) {
 		margin-top: 13px;
 	}
 
+	.carousel-caption {
+  	top: 25%;
+	}
+
 }
 
 /* Small Device = 320px */
@@ -3015,4 +3032,8 @@ div:not(#no) {
 		font-size: 36px;
 		line-height: normal;
 	}
+	.carousel-caption {
+  	top: 12%;
+	}
+
 }
