@@ -198,6 +198,32 @@ div:not(#no) {
 	font-family: "Quantico", sans-serif;
 }
 
+.primary-btn-slider-sm10k {
+	display: inline-block;
+	font-size: 15px;
+	padding: 5px 5px;
+	color: #ffffff;
+	border: 2px solid #c3d460;
+	background: #c3d460;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: "Quantico", sans-serif;
+	border-radius: 12px;
+}
+
+.primary-btn-slider-duacross {
+	display: inline-block;
+	font-size: 15px;
+	padding: 5px 5px;
+	color: #ffffff;
+	border: 2px solid #6495ED;
+	background: #6495ED;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: "Quantico", sans-serif;
+	border-radius: 12px;
+}
+
 .site-btn {
 	font-size: 15px;
 	color: #ffffff;
