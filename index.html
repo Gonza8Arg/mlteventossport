@@ -27,16 +27,13 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/sponsors.css" type="text/css">
 
-    <link rel="stylesheet" type="text/css" href="css/socialbarvertical.css">
-    <link rel="stylesheet" type="text/css" href="css/socialbarvertical-font.css">
-
     <link rel="stylesheet" type="text/css" href="css/carousel.css">
+
+    <link rel="stylesheet" type="text/css" href="css/header.css">
 
     <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-    <script src="js/lightbox.js"></script>
 
 </head>
 
@@ -45,13 +42,27 @@
         <div class="loader"></div>
     </div>
 
-    <!-- SocialBar Vertical -->
-    <!--div class="social-bar">
-        <a href="https://www.facebook.com/mlteventossport" class="icon icon-facebook" target="_blank"></a>
-        <a href="https://www.youtube.com/channel/UChX4VN8kR6nNYluMuXWDefQ" class="icon icon-youtube" target="_blank"></a>
-        <a href="https://www.instagram.com/mlt.eventos.sport/" class="icon icon-instagram" target="_blank"></a>
-    </div-->
-    <!-- SocialBar Vertical -->
+<!-- Top Header -->
+<section id="header-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-2 col-sm-8 display-table" style="height:0px;">
+          <div class="centrador-vertical">
+            <i class="fa fa-sun-o"></i> &nbsp; <span>Temperatura</span> &nbsp; <span class="temp" style="font-weight:bold">Cargando</span> &nbsp; <span class="summary" style="text-transform: capitalize;">Cargando</span></div>
+        </div>
+        <div class="col-xs-10 col-sm-4 display-table" style="height:30px;">
+          <div class="display-table-cell-vertical-middle">
+            <ul class="redes pull-right">
+              <li><a href="https://www.facebook.com/mlteventossport" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+              <li><a href="https://www.instagram.com/mlt.eventos.sport/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://twitter.com/mlteventossport" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UChX4VN8kR6nNYluMuXWDefQ" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+ </section>
 
     <!-- Header -->
     <header class="header-section"> 
@@ -66,9 +77,8 @@
                     <nav class="nav-menu mobile-menu">
                         <ul>
                             <li class="active"><a href="./index ">Home</a></li>
-                            <li><a href="./inscripciones ">Inscripciones</a></li>
+                            <li><a href="https://mlteventossport.store/">Inscripciones</a></li>
                             <li><a href="./calendario ">Calendario</a></li>
-                            <!--li><a href="./galeria ">Galería</a></li-->
                             <li><a href="./nosotros ">Nosotros</a></li>
                             <li><a href="./logistica ">Logística</a></li>
                             <li><a href="./preguntas ">Preguntas</a></li>
@@ -87,19 +97,11 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1" class=""></li>
       <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="3" class=""></li>
     </ol>
     <div class="carousel-inner">
       
       <div class="carousel-item active">
-        <img src="img/slider/sanmartin.jpg" style="width:100%;">
-        <div class="container">
-          <div class="carousel-caption">
-            <p><a class="primary-btn-slider-sm10k" href="https://mlteventossport.com.ar/inscripcion-maraton10k#!/MARATON-10K/p/371684455/">Inscribirme</a></p>     
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel-item">
         <img src="img/slider/duatlon2021v3.jpg" style="width:100%;">
         <div class="container">
           <div class="carousel-caption">
@@ -109,10 +111,28 @@
       </div>
 
       <div class="carousel-item">
+        <img src="img/slider/campeonato.jpg" style="width:100%;">
+        <div class="container">
+          <div class="carousel-caption">
+            <p><a class="primary-btn-slider-duacross" href="https://mlteventossport.store/">Inscribirme</a></p>     
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
         <img src="img/slider/rutti.jpg" style="width:100%;">
         <div class="container">
           <div class="carousel-caption">
             <p><a class="primary-btn-slider-sm10k" data-toggle="modal" data-target="#exampleModalCenter0" href="">Inscribirme</a></p>     
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/slider/sanmartin.jpg" style="width:100%;">
+        <div class="container">
+          <div class="carousel-caption">
+            <p><a class="primary-btn-slider-sm10k" href="https://mlteventossport.com.ar/inscripcion-maraton10k#!/MARATON-10K/p/371684455/">Inscribirme</a></p>     
           </div>
         </div>
       </div>
@@ -129,7 +149,7 @@
     </a>
   </div>
 
-  <!--Mano aca estan los target para no perderlos, para usar los modal (data-toggle="modal" data-target="#exampleModalCenter0")-->
+  <!--Mano aca estan los target para no perderlos, de los modal (data-toggle="modal" data-target="#exampleModalCenter0")-->
 
 <!-- Modal -->
             <div class="modal fade" id="exampleModalCenter0" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -154,29 +174,49 @@
           </div>
         </div>
 <!-- Modal -->
+<!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Conferencia de Prensa</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                🗓️ Lunes 23 de Agosto<br>
+                🕗 10HS <br>
+                📌 Sala Cultural Malvinas Argentinas
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Entendido</button>
+                <!--button type="button" class="btn btn-primary">Save changes</button-->
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- Modal -->
 
+<br />
 
-<script> !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js'); 
-</script> 
-
-
+<div style="float:left;width: 50%;text-align: center;">
+        <img class="bannercdet" src="./img/bannercdet.png" alt="">
+</div>   
 
 <div>
 
-    <div style="float:left;width: 50%;">
-        <a class="weatherwidget-io" href="https://forecast7.com/es/n32d89n68d85/mendoza-province/" data-label_1="Mendoza" data-label_2="Clima" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="original">Mendoza Clima</a>
-    </div>
-
-
     <div style="float:left;width: 50%;text-align: center;">
-        <img class="bannercdet" src="./img/bannercdet.png" alt="">
+        <img class="bannercdet" src="./img/cerealmix.gif" alt="">
     </div>   
 
 </div>
 
 <div style="clear:both"></div>
 
-    <!-- Gacetilla de Prensa -->
+
+
+<!-- Gacetilla de Prensa -->
     <br />
     <br />
     <section class="team-section">
@@ -191,7 +231,23 @@
                     <div class="right-btn"><a href="./calendario " class="primary-btn">Ver Todos</a></div>
                 </div-->
             </div>
-            <div class="row">
+    <div class="row">
+
+     <!--Evento-->
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team-item">
+                        <img src="img/gacetilla/conferenciacampeonato.jpg" alt="">
+                        <div class="ti-text">
+                            <h5>Conferencia de Prensa</h5>
+                            <h5>Duatlón Campeonato Mendocino</h5>
+                            <h6></h6>
+                            <span>23 de Agosto</span> 
+                            <a href="https://www.facebook.com/334655283725354/posts/1132154937308714/" data-toggle="modal" data-target="#exampleModalCenter1" target="_blank" class="gacetilla-btn">Información</a>
+                            <!--a href="https://www.sitioandino.com.ar/n/350323-triunfos-de-juan-fernandez-y-candela-zotelo-en-la-k10-28-anos-de-deporte-vision/" target="_blank" class="gacetilla-btn">Prensa</a-->
+                        </div>
+                    </div>
+                </div>
+    <!--Evento-->
 
     <!--Evento-->
                 <div class="col-lg-4 col-md-6 col-sm-6">
@@ -235,7 +291,7 @@
 
 
     <!--Evento-->
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="team-item">
                         <img src="img/gacetilla/vea.jpg" alt="">
                         <div class="ti-text">
@@ -392,7 +448,7 @@
     <!--Evento-->
 
     <!--Evento-->
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <!--div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="team-item">
                         <img src="img/gacetilla/comunicadogob3.jpg" alt="">
                         <div class="ti-text">
@@ -400,14 +456,10 @@
                             <h5>deportivas en Mendoza</h5>
                             <h6></h6>
                             <span>24/11/20</span>
-                            <!--div class="ti-social">
-                                <a href="https://www.facebook.com/VendimiaNocturna/" target="_blank"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div-->
                             <a href="https://www.losandes.com.ar/mas-deportes/confirmacion-oficial-vuelven-las-competencias-deportivas-en-la-provincia-de-mendoza/" target="_blank" class="gacetilla-btn">Información</a>
                         </div>
                     </div>
-                </div>
+                </div-->
     <!--Evento-->
     </section>
     <!-- Gacetilla de Prensa -->
@@ -415,7 +467,6 @@
     
 
     <!-- Sponsors Start -->
-
     <section class="categories-sponsors">
         <div class="container">
             <div class="row">
@@ -440,6 +491,7 @@
           <div class="slide"><img src="./img/sponsors/yacopinisud.png"></div>
           <div class="slide"><img src="./img/sponsors/ducati.png"></div>
           <div class="slide"><img src="./img/sponsors/nissan.png"></div>
+          <div class="slide"><img src="./img/sponsors/mza.png"></div>
           <div class="slide"><img src="./img/sponsors/maxi.png"></div>
           <div class="slide"><img src="./img/sponsors/talavera.png"></div>
           <div class="slide"><img src="./img/sponsors/estanciamendoza.png"></div>
@@ -534,6 +586,8 @@
     <!-- JS Para los Sponsors-->
     <script src="js/sponsors.js"></script>
     <script src="js/slick.min.js"></script>
+
+    <script src="js/clima.js"></script>
 
 </body>
 

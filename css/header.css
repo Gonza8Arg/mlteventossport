@@ -1,0 +1,32 @@
+.centrador-vertical {
+  padding-top: 6px;
+}
+
+section#header-top {
+  height: 40px;
+  background: #111111;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#header-top ul.redes {
+  list-style: none;
+  margin: 0;
+}
+section#header-top ul.redes li {
+  font-size: 20px;
+  float:left;
+  margin-left: 10px;
+}
+
+section#header-top ul.redes li a {
+  color: #A13119;
+}
+
+section#header-top ul.redes li a:hover {
+  color: #fff;
+}
+
