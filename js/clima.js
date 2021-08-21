@@ -18,7 +18,7 @@ const kelvin = 273;
       const api = "2899c3e7bb8d700e096be3d3554d3ff9";
   
       // API URL
-      const base = `http://api.openweathermap.org/data/2.5/weather?id=3844421&appid=2899c3e7bb8d700e096be3d3554d3ff9&lang=es`;
+      const base = `https://api.openweathermap.org/data/2.5/weather?id=3844421&appid=2899c3e7bb8d700e096be3d3554d3ff9&lang=es`;
   
       // Calling the API
       fetch(base)
