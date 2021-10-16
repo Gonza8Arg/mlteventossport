@@ -139,6 +139,7 @@ div:not(#no) {
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 15px;
+	margin-top: -20px;
 }
 
 .section-title p {
