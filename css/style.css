@@ -1030,6 +1030,7 @@ div:not(#no) {
 
 .fs-widget p {
 	color: #c4c4c4;
+	font-size: 14px;
 }
 
 .fs-widget .fw-subscribe form {
@@ -1229,7 +1230,7 @@ div:not(#no) {
 
 .team-item .ti-text span {
 	display: block;
-	font-size: 18px;
+	font-size: 16px;
 	color: #A13119;
 	margin-bottom: 5px;
 	font-weight: bold;
