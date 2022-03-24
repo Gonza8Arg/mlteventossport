@@ -126,6 +126,10 @@ div:not(#no) {
   top: 42%;
 }
 
+.slider-background {
+	background-color: #f5f5f5;
+}
+
 /*---------------------
   Helper CSS
 -----------------------*/
@@ -2614,7 +2618,7 @@ div:not(#no) {
 
 @media only screen and (min-width: 1200px) {
 	.container {
-		max-width: 1170px;
+		max-width: 1300px;
 	}
 	.gacetilla-btn {
 		margin-top: 13px;
@@ -2624,6 +2628,9 @@ div:not(#no) {
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+		.container {
+		max-width: 1100px;
+	}
 	.hs-slider.owl-carousel .owl-nav button {
 		left: 50px;
 	}
