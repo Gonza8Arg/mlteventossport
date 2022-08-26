@@ -1225,16 +1225,16 @@ div:not(#no) {
 }
 
 .team-item .ti-text h5 {
-	font-size: 16px;
+	font-size: 15px;
 	color: #111111;
 	font-weight: 700;
 	text-transform: uppercase;
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 }
 
 .team-item .ti-text span {
 	display: block;
-	font-size: 16px;
+	font-size: 15px;
 	color: #A13119;
 	margin-bottom: 5px;
 	font-weight: bold;
