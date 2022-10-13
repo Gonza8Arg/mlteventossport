@@ -26,9 +26,11 @@
     <link rel="stylesheet" href="../css/style.css" type="text/css">
 
     <!-- datatables css -->
-    <link rel="stylesheet" type="text/css" href="datatables/datatables.min.css"/>
-    <link rel="stylesheet" type="text/css" href="datatables/DataTables-1.12.1/css/dataTables.bootstrap5.min.css"/>
-    
+    <!--link rel="stylesheet" type="text/css" href="datatables/datatables.min.css"/-->
+    <!--link rel="stylesheet" type="text/css" href="datatables/DataTables-1.12.1/css/dataTables.bootstrap5.min.css"/-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"/>   
 </head>
 
 <body>
@@ -82,17 +84,17 @@
     <br />
     
 </section>
+    
     <!-- Tablas-->
     <div class="container">
         <div class="row">    
             <div class="col-lg-12">
-                <div class="table-responsive">
-                    <table id="example" class="table table-striped table-hover table-bordered table-sm" style="width:100%">
+                <!--div class="table-responsive"-->
+                    <table id="example" class="table table-striped table-hover table-bordered table-sm display" cellspacing="0" width="100%">
                         <thead class="text-center table-dark">
-                        <!--th colspan="15" style="text-align: center" class="table-danger" class="table-active" >1er Fecha Duatlón de Godoy Cruz 2022</th-->
                             <tr>
                                 <th style="text-align: center">Pos. Gral.</th>
-                                <th style="text-align: center">Pos. Gral. Sexo</th>
+                                <th style="text-align: center">Pos. Sexo</th>
                                 <th style="text-align: center">Pos. Categoria</th>
                                 <th style="text-align: center">Dorsal</th>
                                 <th style="text-align: center">Nombre</th> 
@@ -311,7 +313,7 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
+                <!--/div-->
             </div>
         </div>
     </div>
@@ -441,12 +443,19 @@
     <script src="../js/owl.carousel.min.js"></script>
     <script src="../js/main.js"></script>
 
-    <script type="text/javascript" src="datatables/datatables.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    
+
     <script src="jquery/jquery-3.6.1.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!--script src="bootstrap/js/bootstrap.min.js"></script-->
+    <!--script type="text/javascript" src="datatables/datatables.min.js"></script-->
     <script type="text/javascript" src="main.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
