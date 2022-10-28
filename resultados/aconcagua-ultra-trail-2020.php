@@ -21,7 +21,7 @@ $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon"/>
 
-    <title>1er Fecha Duatlón de Godoy Cruz 2022</title>
+    <title>ACONCAGUA ULTRA TRAIL 2020</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Quantico:400,700&display=swap" rel="stylesheet">
@@ -37,9 +37,6 @@ $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
     <link rel="stylesheet" href="../css/style.css" type="text/css">
 
     <!-- datatables css -->
-    <!--link rel="stylesheet" type="text/css" href="datatables/datatables.min.css"/-->
-    <!--link rel="stylesheet" type="text/css" href="datatables/DataTables-1.12.1/css/dataTables.bootstrap5.min.css"/-->
-    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"/>   
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.3.0/css/responsive.dataTables.min.css"/>
@@ -64,13 +61,13 @@ $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
                     </div>
                     <nav class="nav-menu mobile-menu">
                         <ul>
-                            <li><a href="../index ">Home</a></li>
+                            <li><a href="../index.html">Home</a></li>
                             <li><a href="https://mlteventossport.com/">Inscripciones</a></li>
-                            <li><a href="../calendario ">Calendario</a></li>
-                            <li><a href="../nosotros ">Nosotros</a></li>
-                            <li><a href="../logistica ">Logística</a></li>
-                            <li><a href="../preguntas ">Preguntas</a></li>
-                            <li><a href="../contacto ">Contacto</a></li>
+                            <li class="active"><a href="../resultados.html">Resultados</a></li>
+                            <li><a href="../challenger-yacopini/">Challenger 2022</a></li>
+                            <li><a href="../nosotros.html">Nosotros</a></li>
+                            <li><a href="../logistica.html">Logística</a></li>
+                            <li><a href="../contacto.html">Contacto</a></li>
                         </ul>
                     </nav>
                     <div id="mobile-menu-wrap"></div>
@@ -83,41 +80,43 @@ $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
     <!-- Portfolio Section Begin -->
     <br />
     <br />
-
+    <!--img src="../resultados/imagenes/aut.jpg" width="" height="200"/-->
     <section class="portfolio-section portfolio-page">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h2><font face="Segoe UI">1er Fecha Duatlón de Godoy Cruz 2022</font></h2>
+                        <h2><font face="Segoe UI">ACONCAGUA ULTRA TRAIL 2020</font></h2>
+                    </div>
+                    <div class="section-title">
+                        <h4><font face="Segoe UI">15K | 25K | 42K | 60K | 100K</font></h4>
                     </div>
                 </div>
             </div>
         </div>
-    <br />
-    
+        
 </section>
-    
     <!-- Tablas-->
     <div class="container">
         <div class="row">    
             <div class="col-lg-12">
-                <div class="table-responsive">
-                    <table id="example" class="table table-striped table-hover table-bordered display compact responsive nowrap" cellspacing="0" style="width:100%">
-                        <thead class="text-center table-dark" style="font-size:12px">
+                <div class="table-responsive"> 
+                    <table id="example" class="table table-striped table-hover table-bordered display compact responsive nowrap" cellspacing="0" style="width:100%">    
+                    <thead class="text-center table-dark" style="font-size:12px">
                             <tr>
-
                                 <th style="text-align: center">DORSAL</th>
                                 <th style="text-align: center">NOMBRE</th> 
                                 <th style="text-align: center">APELLIDO</th>
+                                <th style="text-align: center">TIEMPO</th>
                                 <th style="text-align: center">SEXO</th>
                                 <th style="text-align: center">DISTANCIA</th> 
                                 <th style="text-align: center">CATEGORIA</th>
                                 <th style="text-align: center">POS. GRAL.</th>
                                 <th style="text-align: center">POS. GRAL. SEXO</th>
                                 <th style="text-align: center">POS. CATEGORIA</th>
-                                <th style="text-align: center">PAÍS </th>
-                                <th style="text-align: center">TIEMPO</th>
+                                <th style="text-align: center">PROMEDIO (MIN/KM)</th>
+                                <th style="text-align: center">VELOCIDAD (KM/H)</th>                                
+                                <th style="text-align: center">PAIS</th>
 
                             </tr>
                         </thead>
@@ -129,14 +128,16 @@ $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
                                 <td><?php echo $aconcagua['Dorsal']?></td>
                                 <td><?php echo $aconcagua['Nombre']?></td>
                                 <td><?php echo $aconcagua['Apellido']?></td>
+                                <td><?php echo $aconcagua['Tiempo']?></td>
                                 <td><?php echo $aconcagua['Sexo']?></td>
                                 <td><?php echo $aconcagua['Distancia']?></td>
                                 <td><?php echo $aconcagua['Categoria']?></td>
                                 <td><?php echo $aconcagua['Pos.Gral.']?></td>
                                 <td><?php echo $aconcagua['Pos.Gral.Sexo']?></td>
                                 <td><?php echo $aconcagua['Pos.Categoria']?></td>
+                                <td><?php echo $aconcagua['Promedio']?></td>
+                                <td><?php echo $aconcagua['Velocidad']?></td>                                
                                 <td><?php echo $aconcagua['Pais']?></td>
-                                <td><?php echo $aconcagua['Tiempo']?></td>
                             </tr>
                             <?php
                                 }
@@ -173,14 +174,6 @@ $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
                     <p>Club de Eventos ha incorporado su división TIMER, con la utilización del sistema de cronometraje descartable de alta tecnología Macsha Timer.</p>
                 </div>
             </div>
-            <!--div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="fs-about">
-                    <div class="fa-logo">
-                           <center><img src="img/f-eventbrite.png" alt=""></center>
-                    </div>
-                    <p>Vinculada con Eventbrite, ahora sacar entradas para tí, familia o amigos nunca fue tan fácil.</p>
-                </div>
-            </div-->
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="fs-widget">
                     <center>
@@ -221,48 +214,6 @@ $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
     </div>
     <!-- Search model end -->
 
-    <script>
-    function Nombre() {
-      var input, filter, table, tr, td, i, txtValue;
-      input = document.getElementById("myInput");
-      filter = input.value.toUpperCase();
-      table = document.getElementById("myTable");
-      tr = table.getElementsByTagName("tr");
-      for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[2];
-        if (td) {
-          txtValue = td.textContent || td.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = "";
-          } else {
-            tr[i].style.display = "none";
-          }
-        }       
-      }
-    }
-    </script>
-
-    <script>
-    function Dorsal() {
-      var input, filter, table, tr, td, i, txtValue;
-      input = document.getElementById("myInput2");
-      filter = input.value.toUpperCase();
-      table = document.getElementById("myTable");
-      tr = table.getElementsByTagName("tr");
-      for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[1];
-        if (td) {
-          txtValue = td.textContent || td.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = "";
-          } else {
-            tr[i].style.display = "none";
-          }
-        }       
-      }
-    }
-    </script>
-
     <!-- Js Plugins -->
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
@@ -276,8 +227,6 @@ $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
     
 
     <script src="jquery/jquery-3.6.1.min.js"></script>
-    <!--script src="bootstrap/js/bootstrap.min.js"></script-->
-    <!--script type="text/javascript" src="datatables/datatables.min.js"></script-->
     <script type="text/javascript" src="main.js"></script>
 
     <!-- JavaScript Bundle with Popper -->
@@ -285,7 +234,7 @@ $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/responsive/2.3.0/js/dataTables.responsive.min.js"></script>
-    
+
 </body>
 
 </html>
