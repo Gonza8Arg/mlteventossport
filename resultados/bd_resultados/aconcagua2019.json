@@ -1,0 +1,34 @@
+{
+	"data":[
+ {
+  "id": "1",    
+  "Dorsal": 1550,
+  "Nombre": "NICOLAS ANTONIO",
+  "Apellido": "GALLARDO MATURANA",
+"Tiempo": "01:06:16"
+  "Sexo": "VARONES",
+  "Distancia": 15,
+  "Categoria": "S\/C",
+  "Pos.Gral.": 1,
+  "Pos.Gral.Sexo": 1,
+  "Pos.Categoria": 1,
+  "Pais": "Chile ",
+
+ },
+ {
+      "id": "2", 
+  "Dorsal": 1501,
+  "Nombre": "JUAN PABLO",
+  "Apellido": "LAURÍA",
+    "Tiempo": "01:14:40"
+  "Sexo": "VARONES",
+  "Distancia": 15,
+  "Categoria": "S\/C",
+  "Pos.Gral.": 2,
+  "Pos.Gral.Sexo": 2,
+  "Pos.Categoria": 2,
+  "Pais": "Argentina",
+
+ }
+]
+}
