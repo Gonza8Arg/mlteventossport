@@ -3,7 +3,7 @@ include_once 'base_de_datos/conexion.php';
 $objeto = new Conexion();
 $conexion = $objeto->Conectar();
 
-$consulta = "SELECT * FROM aconcagua2020";
+$consulta = "SELECT * FROM aconcagua2019";
 $resultado = $conexion->prepare($consulta);
 $resultado->execute();
 $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
@@ -86,7 +86,7 @@ $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h2><font face="Segoe UI">ACONCAGUA ULTRA TRAIL 2020</font></h2>
+                        <h2><font face="Segoe UI">ACONCAGUA ULTRA TRAIL 2019</font></h2>
                     </div>
                     <div class="section-title">
                         <h4><font face="Segoe UI">15K | 25K | 42K | 60K | 100K</font></h4>
