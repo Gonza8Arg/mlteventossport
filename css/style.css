@@ -49,7 +49,9 @@ h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 400;
-	font-family: "Quantico", sans-serif;
+	/*font-family: "Quantico", sans-serif;*/
+	font-family: "Segoe UI", sans-serif;
+	
 }
 
 h1 {
@@ -78,7 +80,8 @@ h6 {
 
 p {
 	font-size: 15px;
-	font-family: "Open Sans", sans-serif;
+	/*font-family: "Open Sans", sans-serif;*/
+	font-family: "Segoe UI", sans-serif;
 	color: #666666;
 	font-weight: 400;
 	line-height: 26px;
